@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "ncc build src/main.js -o dist"
+  },
   "dependencies": {
     "@actions/core": "^3.0.1",
     "@vercel/ncc": "^0.45.0",
